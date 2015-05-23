@@ -1,0 +1,30 @@
+﻿Build started 23-04-2015 14:47:40.
+     1>Project "c:\irfr\IRFR\IRFR\IRFR.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\opencv-2.4.11\buildnew\install\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Source.cpp(228): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Source.cpp(305): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(332): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(344): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(349): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(367): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(329): warning C4101: 'e' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\irfr\IRFR\Release\IRFR.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"G:\opencv-2.4.11\buildnew\lib\Release" IlmImf.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib opencv_world2411.lib zlib.lib comctl32.lib gdi32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\irfr\IRFR\Release\IRFR.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\irfr\IRFR\Release\IRFR.lib" /MACHINE:X86 /SAFESEH Release\Source.obj
+         Generating code
+     1>c:\irfr\irfr\irfr\source.cpp(79): warning C4715: 'update_window' : not all control paths return a value
+         Finished generating code
+         IRFR.vcxproj -> c:\irfr\IRFR\Release\IRFR.exe
+     1>Done Building Project "c:\irfr\IRFR\IRFR\IRFR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:01.99
